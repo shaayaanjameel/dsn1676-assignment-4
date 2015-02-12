@@ -13,3 +13,11 @@ var grapes = {
     carbohydrates: 18.1,
     protein: 0.72
 };
+
+var currant = {
+    fullName: 'Ribes rubrum',
+    grownsOnShrub: true,
+    energy: 234,
+    carbohydrates: 13.8,
+    protein: 1.4
+};
