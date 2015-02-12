@@ -1,6 +1,6 @@
 var blue = {
     fullName: 'Vaccinium corymbosum',
-    grownsOnShrub: true,
+    growsOnShrub: true,
     energy: 240,
     carbohydrates: 14.49,
     protein: 0.74
@@ -8,7 +8,7 @@ var blue = {
 
 var grapes = {
     fullName: 'Vitis vinifera',
-    grownsOnShrub: false,
+    growsOnShrub: false,
     energy: 288,
     carbohydrates: 18.1,
     protein: 0.72
@@ -16,8 +16,16 @@ var grapes = {
 
 var currant = {
     fullName: 'Ribes rubrum',
-    grownsOnShrub: true,
+    growsOnShrub: true,
     energy: 234,
     carbohydrates: 13.8,
     protein: 1.4
+};
+
+var writefruit = function (fruit) {
+    document.write('<h1>' + fruit.fullName + '</h1>');
+    document.write('<dl>');
+    document.write('<dt> Grows On Shrub </dt>');
+    document.write('<dd>' + fruit.growsOnShrub + '<dd>');
+    document.write('<dl>');
 };
