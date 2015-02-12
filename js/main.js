@@ -27,18 +27,18 @@ var writeFruit = function (fruit) {
     document.write('<dl>');
     
     document.write('<dt> Grows On Shrub </dt>');
-    document.write('<dd>' + fruit.growsOnShrub + '<dd>');
+    document.write('<dd>' + fruit.growsOnShrub + '</dd>');
     
     document.write('<dt> Energy </dt>');
-    document.write('<dd>' + fruit.energy + '<dd>');
+    document.write('<dd>' + fruit.energy + '</dd>');
     
     document.write('<dt> Carbohydrates </dt>');
-    document.write('<dd>' + fruit.carbohydrates + '<dd>');
+    document.write('<dd>' + fruit.carbohydrates + '</dd>');
     
     document.write('<dt> Protein </dt>');
-    document.write('<dd>' + fruit.protein + '<dd>');
+    document.write('<dd>' + fruit.protein + '</dd>');
     
-    document.write('<dl>');
+    document.write('</dl>');
 };
 
 var allFruit = [blue, grapes, currant]
